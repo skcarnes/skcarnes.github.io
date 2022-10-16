@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { LaunchDarklyService } from './launch-darkly.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'launch-darkly-proto';
+
+  constructor(launchDarklyService: LaunchDarklyService) {}
 }
