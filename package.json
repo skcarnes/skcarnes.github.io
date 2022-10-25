@@ -20,7 +20,7 @@
     "@angular/router": "^14.2.6",
     "@angular/service-worker": "^14.2.6",
     "@schematics/angular": "^14.2.6",
-    "launchdarkly-js-client-sdk": "^2.22.0",
+    "launchdarkly-js-client-sdk": "^2.24.2",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
